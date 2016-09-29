@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">wallpaper</string>
+    <string name="w_free_now">Agora, é grátis!</string>
+    <string name="w_want_to_get">Deseja obter mais papéis de parede gratuitos? Acesse o Google Play e avalie-nos com 5 estrelas!</string>
+    <string name="w_want_to_get_more">Deseja obter mais eventos? Acesse o Google Play e avalie-nos com 5 estrelas!</string>
+    <string name="w_give_up">Desistir</string>
+    <string name="w_go_google_play">Ir para Google Play</string>
+    <string name="w_congatulations">Parabéns</string>
+    <string name="w_go">Ir!</string>
+    <string name="w_wallpaper_title">(Novo) Papel de parede</string>
+    <string name="update_version">encontrar nova versão</string>
+
+</resources>

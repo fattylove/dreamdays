@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">Hintergründe</string>
+    <string name="w_free_now">Jetzt gratis!</string>
+    <string name="w_want_to_get">Möchtest du kostenlose Hintergrundbilder erhalten? Gehe auf Google Play und gib uns eine 5-Sterne-Bewertung!</string>
+    <string name="w_want_to_get_more">Möchtest du mehr Ereignisse erhalten? Gehe auf Google Play und gib uns eine 5-Sterne-Bewertung!</string>
+    <string name="w_give_up">Aufgeben</string>
+    <string name="w_go_google_play">Auf Google Play gehen</string>
+    <string name="w_congatulations">Herzlichen Glückwunsch!</string>
+    <string name="w_go">Los!</string>
+    <string name="w_wallpaper_title">Hintergründe Club(Neu)</string>
+    <string name="update_version">neue Version finden</string>
+
+</resources>

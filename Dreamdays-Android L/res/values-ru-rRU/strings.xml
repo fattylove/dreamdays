@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 俄文 -->
+
+    <string name="app_name">Dreamdays</string>
+
+    <!-- AddAcitivty -->
+    <string name="addActivity_edit_event">Редактировать событие</string>
+
+    <!-- MenuFragment -->
+    <string name="MenuFragment_app_detail">Издатель Dreamdays : Guxiu</string>
+    <string name="MenuFragment_share_dreamdays">Поделиться приложением</string>
+    <string name="MenuFragment_rate_and_review">Оценить приложение</string>
+    <string name="MenuFragment_send_faceback">Обратная связь</string>
+    <string name="MenuFragment_on">Включить</string>
+    <string name="MenuFragment_off">Выключить</string>
+    <string name="MenuFragment_passcode">Пароль</string>
+    <string name="MenuFragment_upgrade">Обновление до полной версии</string>
+    <string name="MenuFragment_sort">По времени</string>
+
+    <!-- AddActivity -->
+    <string name="AddActivity_delete">Удалить событие</string>
+    <string name="AddActivity_add_voice_memo">Добавить голосовую заметку</string>
+    <string name="AddActivity_cu_background">Настроить фон</string>
+    <string name="AddActivity_set_as_cover">Обложка</string>
+    <string name="AddActivity_on">Включить</string>
+    <string name="AddActivity_off">Выключить</string>
+    <string name="AddActivity_notify">Уведомление</string>
+    <string name="AddActivity_date">Дата</string>
+    <string name="AddActivity_anniversary">Годовщина</string>
+    <string name="AddActivity_category">Категория</string>
+    <string name="AddActivity_event_title">Заголовок</string>
+    <string name="AddActivity_done">Готово</string>
+    <string name="AddActivity_untitled">Событие</string>
+
+    <!-- AddActivity title -->
+    <string name="edit_event">Редактировать</string>
+    <string name="new_event">Новое событие</string>
+
+    <!-- CategoryActivity -->
+    <string name="CategoryActivity_category">Категория</string>
+    <string name="CategoryActivity_create_new_category">Создать новую категорию</string>
+
+    <!--  -->
+    <string name="app_record_notfound">Файл записи не найден</string>
+    <string name="app_record_tooshort">Запись слишком короткая</string>
+    <string name="app_record_sdcarderror">SD карта не найдена,ошибка записи!</string>
+
+    <!-- ratereview -->
+
+    <string name="app_ratereview_ok">В GooglePlay</string>
+    <string name="app_ratereview_title">Вам нравится Dreamdays?</string>
+    <string name="app_ratereview_content">Если да, перейтите, пожайлуйста,  в GooglePlay и оцените приложение :)</string>
+
+    <!-- update Version -->
+    <string name="app_update_title">Обновление</string>
+    <string name="app_update_content">проверить обновления</string>
+    <string name="app_update_googlePlay">В GooglePlay</string>
+
+    <!--  -->
+    <string name="app_day_left">день остался</string>
+    <string name="app_days_left">дней осталось</string>
+    <string name="app_days_since">дней прошло</string>
+    <string name="app_day_since">день прошел</string>
+
+    <!-- buttons -->
+    <string name="app_choice_email_title">Выберите Email-клиент</string>
+    <string name="app_feedback_title">Обратная связь с Dreamdays Android.</string>
+    <string name="no_found_markets">Невозможно найти маркет!</string>
+    <string name="alarm_title">Сегодня </string>
+    <string name="event_delete_title">Удалить событие</string>
+    <string name="event_delete_content">Вы хотите удалить это событие?</string>
+
+    <!-- buttons -->
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="delete">Удалить</string>
+    <string name="on">Включить</string>
+    <string name="off">Выключить</string>
+    <string name="cancel">Отмена</string>
+    <string name="edit">Редактировать</string>
+    <string name="great">Отлично</string>
+    <string name="deleted">Удалено</string>
+    <string name="done">Готово</string>
+    <string name="upgrade">Обновление</string>
+
+    <!-- wallpaper -->
+    <string name="wallpaper_takephoto">Сделать снимок</string>
+    <string name="wallpaper_cameraroll">Из галереи</string>
+    <string name="wallpaper_cancel">Отмена</string>
+    <string name="wallpaper_title">Настроить фон</string>
+
+    <!-- passcode -->
+    <string name="passcode_manage">Пароль</string>
+    <string name="passcode_enter_passcode">Введите пароль</string>
+    <string name="passcode_enter_old_passcode">Введите старый пароль</string>
+    <string name="passcode_re_enter_passcode">Подтвердите пароль</string>
+    <string name="passcode_change_passcode">Изменить пароль</string>
+    <string name="passcode_set">Новый пароль</string>
+    <string name="passcode_wrong_passcode">Пароли не совпадают, попробуйте пожалуйста еще раз.</string>
+    <string name="passcode_preference_title">Защита паролем</string>
+    <string name="passcode_turn_off">Выключить защиту паролем</string>
+    <string name="passcode_turn_on">Включить защиту паролем</string>
+
+    <!-- Recording voice -->
+    <string name="dialog_loading">Загрузка</string>
+    <string name="recording">Запись</string>
+    <string name="hold_to_record">Удерживайте для записи</string>
+    <string name="microphone">Микрофон</string>
+    <string name="edit_voice_memo">Редактировать голосовую заметку</string>
+    <string name="add_voice_memo">Добавить голосовую заметку</string>
+    <string name="playing_record">Воспроизвести запись</string>
+
+    <!-- app_2 -->
+    <string name="google_buy_content_passcode">Хотите обновить приложение до полной версии, чтобы включить защиту паролем?</string>
+    <string name="google_buy_content_add_event">Хотите обновить приложение до полной версии, чтобы создавать больше событий?</string>
+    <string name="is_open_content">Теперь Вам доступны все платные возможности, спасибо за поддержку!</string>
+
+    <!-- color -->
+    <drawable name="red_drawable">#CCAA1883</drawable>
+    <drawable name="green_drawable">#CC123Bff</drawable>
+
+    <!-- Default data -->
+    <string name="d_All">Все</string>
+    <string name="d_Anniversary">Годовщина</string>
+    <string name="d_Birthday">День рождения</string>
+    <string name="d_Holiday">Праздник</string>
+    <string name="d_School">Школа</string>
+    <string name="d_Life">Жизнь</string>
+    <string name="d_go_fishing">Пойти на рыбалку</string>
+    <string name="d_his_birthday">Его день рождения</string>
+    <string name="d_halloween">Хэллоуин</string>
+    <string name="d_winter_break">Зимние каникулы</string>
+    <string name="d_first_sight">Первое свидание</string>
+    <string name="d_January">Январь</string>
+    <string name="d_February">Февраль</string>
+    <string name="d_March">Март</string>
+    <string name="d_April">Апрель</string>
+    <string name="d_May">Май</string>
+    <string name="d_June">Июнь</string>
+    <string name="d_July">Июль</string>
+    <string name="d_August">Август</string>
+    <string name="d_September">Сентябрь</string>
+    <string name="d_October">Октябрь</string>
+    <string name="d_November">Ноябрь</string>
+    <string name="d_December">Декабрь</string>
+
+    <!-- DetailActivity -->
+    <string name="d_years">лет</string>
+    <string name="d_months">месяцев</string>
+    <string name="d_days">дней </string>
+    <string name="d_year">год</string>
+    <string name="d_month">месяц</string>
+    <string name="d_day">день</string>
+
+</resources>

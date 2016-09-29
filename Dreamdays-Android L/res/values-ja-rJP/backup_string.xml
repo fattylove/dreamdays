@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">バックアップ</string>
+    <string name="login_signin">登録</string>
+    <string name="login_signup">サインアップ</string>
+    <string name="login_email_address">メールアドレス</string>
+    <string name="login_password">パスワード</string>
+    <string name="login_confirm_password">パスワードの確認</string>
+    
+    <string name="login_with_facebook">Facebook アカウントでログイン</string>
+    <string name="login_with_twitter">Twitter アカウントでログイン</string>
+    
+    <string name="login_text_1">フェイスブック或いはツイーターからログインする</string>
+    <string name="login_text_2">サインアップすることにより、次の内容に同意します: </string>
+    <string name="login_text_3">プライベートポリシー</string>
+    <string name="login_text_4">バックアップからの復元</string>
+    <string name="login_text_5">生活ジャンルが空いている場合は回復できない</string>
+    <string name="login_text_6">ネットにつながらなくて、北朝鮮にいる？</string>
+    
+    <string name="login_wrong_u_p">ユーザー名或いはパスワードが違う。</string>
+    <string name="login_wrong_e_e">メールアドレスを入力してください。</string>
+    <string name="login_wrong_p">パスワードが違う</string>
+    <string name="login_wrong_e_h_s">このメールアドレスはすでに使用されています。</string>
+    <string name="login_wrong_p_e_c_e_a">正しいメールアドレスを入力してください。</string>
+    <string name="login_wrong_y_p_h">あなたのパスワードはここにある。</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">パスワードリンクを変更する</string>
+    <string name="login_wrong_password_send">パスワードは発信済みで、メールボックスのゴミ箱をチエックしてください &amp; spam.</string>
+    <string name="login_wrong_y_n_a_s_p">安全なパスワードが必要とされます。</string>
+    <string name="login_wrong_p_d_n_m">パスワードがマッチできません。</string>
+    <string name="login_wrong_t_e_h_s_u">このメールアドレスはすでに登録されました。</string>
+     
+    <string name="login_forget_title">私は忘れた。</string>
+    <string name="login_forget_content">私たちはパスワードをメールボックスに送ります。</string>
+    <string name="login_forget_ok">確かに</string>
+    <string name="login_forget_cancel">結構です、ありがとう。</string>
+    <string name="backup_restore">回復</string>
+
+</resources>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 意大利 -->
+
+    <string name="app_name">Dreamdays</string>
+
+    <!-- AddAcitivty -->
+    <string name="addActivity_edit_event">Compila evento</string>
+
+    <!-- MenuFragment -->
+    <string name="MenuFragment_app_detail">Dreamdays è una produzione di Guxiu Design </string>
+    <string name="MenuFragment_share_dreamdays">Condividi Dreamdays</string>
+    <string name="MenuFragment_rate_and_review">Valuta e commenta</string>
+    <string name="MenuFragment_send_faceback">Invia feedback</string>
+    <string name="MenuFragment_on">ON</string>
+    <string name="MenuFragment_off">OFF</string>
+    <string name="MenuFragment_passcode">Codice di accesso</string>
+    <string name="MenuFragment_upgrade">Passa alla versione completa</string>
+    <string name="MenuFragment_sort">Ordina per tempo</string>
+
+    <!-- AddActivity -->
+    <string name="AddActivity_delete">Elimina l\'evento</string>
+    <string name="AddActivity_add_voice_memo">Aggiungi Memo vocale</string>
+    <string name="AddActivity_cu_background">Personalizza sfondo</string>
+    <string name="AddActivity_set_as_cover">Imposta come copertina</string>
+    <string name="AddActivity_on">ON</string>
+    <string name="AddActivity_off">OFF</string>
+    <string name="AddActivity_notify">Notifica</string>
+    <string name="AddActivity_date">Data</string>
+    <string name="AddActivity_anniversary">Anniversario</string>
+    <string name="AddActivity_category">Categoria</string>
+    <string name="AddActivity_event_title">Titolo dell\'evento</string>
+    <string name="AddActivity_done">Fatto</string>
+    <string name="AddActivity_untitled">Evento senza titolo</string>
+
+    <!-- AddActivity title -->
+    <string name="edit_event">Modifica evento</string>
+    <string name="new_event">Nuovo evento</string>
+
+    <!-- CategoryActivity -->
+    <string name="CategoryActivity_category">Categoria</string>
+    <string name="CategoryActivity_create_new_category">Crea una nuova categoria</string>
+
+    <!--  -->
+    <string name="app_record_notfound">Registratore non trovato</string>
+    <string name="app_record_tooshort">La registrazione è troppo breve</string>
+    <string name="app_record_sdcarderror">Scheda SD non trovata, errore di registrazione </string>
+
+    <!-- ratereview -->
+
+    <string name="app_ratereview_ok">Vai a Google Play</string>
+    <string name="app_ratereview_title">Ti piace utilizzare Dreamdays?</string>
+    <string name="app_ratereview_content">Se sì, assicurati di andare al Google Play Store e lasciare un commento o una valutazione:)</string>
+
+    <!-- update Version -->
+    <string name="app_update_title">Aggiorna</string>
+    <string name="app_update_content">Cerca nuova versione</string>
+    <string name="app_update_googlePlay">Vai al Google Play Store</string>
+
+    <!--  -->
+    <string name="app_day_left">Giorno rimasto</string>
+    <string name="app_days_left">Giorni rimasti</string>
+    <string name="app_days_since">Giorni trascorsi</string>
+    <string name="app_day_since">Giorno trascorso</string>
+
+    <!-- buttons -->
+    <string name="app_choice_email_title">Scegli client di posta elettronica</string>
+    <string name="app_feedback_title">Dreamdays feedback Android.</string>
+    <string name="no_found_markets">non riesco a trovare markets!</string>
+    <string name="alarm_title">Oggi è</string>
+    <string name="event_delete_title">Elimina l\'evento</string>
+    <string name="event_delete_content">Vuoi eliminare questo evento?</string>
+
+    <!-- buttons -->
+    <string name="ok">OK</string>
+    <string name="yes">Sì</string>
+    <string name="no">NO</string>
+    <string name="delete">Elimina</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="cancel">Annulla</string>
+    <string name="edit">Modifica</string>
+    <string name="great">Ottimo</string>
+    <string name="deleted">Eliminato</string>
+    <string name="done">Fatto</string>
+    <string name="upgrade">Aggiornamento</string>
+
+    <!-- wallpaper -->
+    <string name="wallpaper_takephoto">Scatta una foto</string>
+    <string name="wallpaper_cameraroll">Scegli dalla galleria</string>
+    <string name="wallpaper_cancel">Annulla</string>
+    <string name="wallpaper_title">Sfondo</string>
+
+    <!-- passcode -->
+    <string name="passcode_manage">Codice di Sblocco</string>
+    <string name="passcode_enter_passcode">Inserisci il codice</string>
+    <string name="passcode_enter_old_passcode">Inserisci il vecchio codice di accesso</string>
+    <string name="passcode_re_enter_passcode">Conferma codice</string>
+    <string name="passcode_change_passcode">Mod.cod.accesso</string>
+    <string name="passcode_set">Nuovo codice di accesso</string>
+    <string name="passcode_wrong_passcode">Il codice non è corretto</string>
+    <string name="passcode_preference_title">Codice di blocco</string>
+    <string name="passcode_turn_off">Disattiva il codice di accesso</string>
+    <string name="passcode_turn_on">Attiva il codice di accesso</string>
+
+    <!-- Recording voice -->
+    <string name="dialog_loading">Caricamento…</string>
+    <string name="recording">Registrazione in corso</string>
+    <string name="hold_to_record">Tenere premuto per registrare</string>
+    <string name="microphone">il microfono</string>
+    <string name="edit_voice_memo">Modifica memo vocale</string>
+    <string name="add_voice_memo">Aggiungi memo vocale</string>
+    <string name="playing_record">Riproduzione in corso</string>
+
+    <!-- app_2 -->
+    <string name="google_buy_content_passcode">Vuoi aggiornare alla versione completa per abilitare i codici di accesso?</string>
+    <string name="google_buy_content_add_event">Vuoi aggiornare alla versione completa per tenere traccia di più eventi?</string>
+    <string name="is_open_content">Ora hai tutte le caratteristiche a pagamento grazie a App Of The Day </string>
+
+    <!-- color -->
+    <drawable name="red_drawable">#CCAA1883</drawable>
+    <drawable name="green_drawable">#CC123Bff</drawable>
+
+    <!-- Default data -->
+    <string name="d_All">Tutto</string>
+    <string name="d_Anniversary">Anniversario</string>
+    <string name="d_Birthday">Compleanno</string>
+    <string name="d_Holiday">Vacanza</string>
+    <string name="d_School">Scuola</string>
+    <string name="d_Life">Vita</string>
+    <string name="d_go_fishing">Andare a pesca</string>
+    <string name="d_his_birthday">Il suo compleanno</string>
+    <string name="d_halloween">Halloween</string>
+    <string name="d_winter_break">Inizio dell’inverno</string>
+    <string name="d_first_sight">Primo incontro</string>
+    <string name="d_January">gennaio</string>
+    <string name="d_February">febbraio</string>
+    <string name="d_March">marzo</string>
+    <string name="d_April">aprile</string>
+    <string name="d_May">maggio</string>
+    <string name="d_June">giugno</string>
+    <string name="d_July">luglio</string>
+    <string name="d_August">agosto</string>
+    <string name="d_September">settembre</string>
+    <string name="d_October">ottobre</string>
+    <string name="d_November">novembre</string>
+    <string name="d_December">dicembre</string>
+
+    <!-- DetailActivity -->
+    <string name="d_years">Anni</string>
+    <string name="d_months">Mesi</string>
+    <string name="d_days">Giorni</string>
+    <string name="d_year">Anno</string>
+    <string name="d_month">Mese</string>
+    <string name="d_day">Giorno</string>
+
+</resources>

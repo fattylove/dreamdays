@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/topBgImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/nothingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+
+        <include layout="@layout/al_dreamdays_home_top_nodata_layout" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/yuanbingImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/al_cover_bg" />
+
+    <RelativeLayout
+        android:id="@+id/eventTopLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <RelativeLayout
+            android:id="@+id/topLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/topDaysTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:textSize="85sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-15dp"
+                android:layout_toRightOf="@+id/topDaysTextView" >
+
+                <ImageView
+                    android:id="@+id/topPointImageView"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/al_item_up_white" />
+
+                <ImageView
+                    android:id="@+id/bottomPointImageView"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/al_item_down_white" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLayout"
+            android:layout_marginTop="-15dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/centerImageView" >
+
+                <TextView
+                    android:id="@+id/centerLine1"
+                    android:layout_width="55dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/line" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/centerImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/centerImageView" >
+
+                <TextView
+                    android:id="@+id/centerLine2"
+                    android:layout_width="55dp"
+                    android:layout_height="2dp"
+                    android:background="@drawable/line" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerLayout" >
+
+            <TextView
+                android:id="@+id/topNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:text="Happy new Year!"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/deleteTextView"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/topBgImageView"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+        android:text="@string/delete"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

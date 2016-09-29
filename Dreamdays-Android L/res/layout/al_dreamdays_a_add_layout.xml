@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <include
+        android:id="@+id/t"
+        layout="@layout/al_dreamdays_title_add_edit_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/t"
+        android:background="@android:color/transparent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingBottom="70dp" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <EditText
+                    android:id="@+id/eventNameEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:maxLength="35"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="#90a4ae"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eventCategoryLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventCategoryPreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/CategoryActivity_category"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/eventCategoryTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:textColor="#0091f6"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <include layout="@layout/al_dreamdays_full_line" />
+
+            <RelativeLayout
+                android:id="@+id/eventDateLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventDatePreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/AddActivity_untitled_event_data"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/eventDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:textColor="#0091f6"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eventRepeatDateLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventRepeatDatePreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/repeat"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/eventRepeatDateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:text="@string/none"
+                    android:textColor="#0091f6"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eventRepeatLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/eventRepeatPreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/repeat"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/eventRepeatTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:text="@string/none"
+                    android:textColor="#0091f6"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eventCoverLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventCoverPreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/AddActivity_set_as_cover"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/eventCoverCheckboxLayout"
+                    android:layout_width="160dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/eventCoverCheckbox"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/al_checkbox_selector"
+                        android:button="@null" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eventNotificationLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventNotificationPreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/AddActivity_untitled_notification"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/eventNotificationCheckboxLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/eventNotificationCheckbox"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/al_checkbox_selector"
+                        android:button="@null" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/topLine"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.3"
+                android:background="#d7dee2"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/eventBackgroundLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/eventBackgroundImageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/eventBackgroundPreTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:text="@string/AddActivity_cu_background"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bottomLine"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:alpha="0.3"
+                android:background="#d7dee2"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/eventVoiceLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp" >
+
+                <TextView
+                    android:id="@+id/eventVoicePreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical"
+                    android:text="@string/add_voice_memo"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="16sp"
+                    android:typeface="sans" />
+
+                <ImageButton
+                    android:id="@+id/audiaImageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/transparent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/deleteLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#dadada" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/event_delete_title"
+            android:textColor="#fe4a4a"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

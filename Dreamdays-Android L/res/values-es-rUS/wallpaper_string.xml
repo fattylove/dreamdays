@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">wallpaper</string>
+    <string name="w_free_now">¡Gratis ahora!</string>
+    <string name="w_want_to_get">¿Quieres conseguir gratis los fondos de pantalla? Entra en Google Play y danos una puntuación de 5 estrellas.</string>
+    <string name="w_want_to_get_more">¿Quieres disfrutar de más eventos? Entra en Google Play y danos una puntuación de 5 estrellas.</string>
+    <string name="w_give_up">Abandonar</string>
+    <string name="w_go_google_play">Entrar en Google Play</string>
+    <string name="w_congatulations">Enhorabuena</string>
+    <string name="w_go">Continuar</string>
+    <string name="w_wallpaper_title">Fondo de pantalla(nuevo)</string>
+    <string name="update_version">buscar nueva versión</string>
+
+</resources>

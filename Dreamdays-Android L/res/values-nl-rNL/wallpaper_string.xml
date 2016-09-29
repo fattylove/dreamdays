@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">achtergrond</string>
+    <string name="w_free_now">Nu gratis!</string>
+    <string name="w_want_to_get">Wil je gratis wallpapers krijgen? Ga naar Google Play en geef ons 5 sterren!</string>
+    <string name="w_want_to_get_more">Wil je meer evenementen verdienen? Ga naar Google Play en geef ons 5 sterren!</string>
+    <string name="w_give_up">Opgeven</string>
+    <string name="w_go_google_play">Google Play openen</string>
+    <string name="w_congatulations">Gefeliciteerd</string>
+    <string name="w_go">Ga!</string>
+    <string name="w_wallpaper_title">achtergrond club (nieuw)</string>
+    <string name="update_version">find new version</string>
+
+</resources>

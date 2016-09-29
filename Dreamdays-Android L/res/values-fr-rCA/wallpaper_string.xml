@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">des fonds écrans</string>
+    <string name="w_free_now">Désormais gratuit!</string>
+    <string name="w_want_to_get">Voulez-vous obtenir des fonds d\'écran gratuits ? Accédez à Google Play et donnez-nous 5 étoiles !</string>
+    <string name="w_want_to_get_more">Voulez-vous obtenir plus d\'événements ? Accédez à Google Play et donnez-nous 5 étoiles !</string>
+    <string name="w_give_up">Abandonner</string>
+    <string name="w_go_google_play">Accéder à Google Play</string>
+    <string name="w_congatulations">Félicitations</string>
+    <string name="w_go">OK !</string>
+    <string name="w_wallpaper_title">Club des fonds écrans(Nouveau)</string>
+    <string name="update_version">trouver une nouvelle version</string>
+
+</resources>

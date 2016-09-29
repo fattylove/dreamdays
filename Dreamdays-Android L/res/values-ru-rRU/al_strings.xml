@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- new -->
+    <string name="repeat">Повторять</string>
+    <string name="none">Ничего</string>
+    <string name="all_events">Все события</string>
+    <string name="dreamdays_background">Фоны «Счастливых дней»</string>
+    <string name="cameraroll">Выбрать из Фотоплёнки</string>
+    <string name="customize">Настроить</string>
+    <string name="settings">Настройки</string>
+    <string name="pin_lock">Пароль</string>
+    <string name="al_lock_enteryourpin">Введите пароль</string>
+    <string name="al_lock_enteryourpasscode">Введите пароль</string>
+    <string name="al_lock_confirmnewpasscode">Повторите пароль</string>
+    <string name="al_lock_enternewpasscode">Новый пароль</string>
+    <string name="weekly">Еженедельно</string>
+    <string name="bi_weekly">Один раз в две недели</string>
+    <string name="monthly">Ежемесячно</string>
+    <string name="quarterly">Ежеквартально</string>
+    <string name="semi_annually">Раз в полгода</string>
+    <string name="annually">Ежегодно</string>
+    <string name="replace">Восстановить</string>
+    <string name="d_tour">Поездки</string>
+    <string name="al_delete_event_content">Вы уверены, что хотите удалить это событие?</string>
+    <string name="al_delete_btn">Удалить</string>
+    <string name="al_delete_memo_title">Удалить</string>
+    <string name="al_delete_category_title">Удалить</string>
+    <string name="al_nocoverevents">Нет событий для обложки</string>
+    <string name="settings_restore_data">Восстановить</string>
+    <!--  -->
+
+    <string name="back_report">Current events will be replaced by this backup</string>
+    <string name="sync_data">Sync data</string>
+    <string name="remove_voice_memo">Remove Voice Memo</string>
+    <string name="al_emptyspace">Empty space</string>
+    <string name="al_youcurrentlydonothaveanyevents">You currently do not have any events</string>
+    <string name="al_createevent">CREATE EVENT</string>
+    <string name="al_yccaneosaeeac">You can create a new event or set \n an existing event as cover.</string>
+    <string name="al_delete_memo_content">Do you want to delete this memo?</string>
+    <string name="al_delete_category_content">Do you want to delete this category?</string>
+    <string name="al_restored_on">Restored on </string>
+    
+    <string name="AddActivity_untitled_title">Название</string>
+    <string name="AddActivity_untitled_event_data">Дата</string>
+    <string name="AddActivity_untitled_notification">Notification</string>
+</resources>

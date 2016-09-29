@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">背景</string>
+    <string name="w_free_now">無料で使用中!</string>
+    <string name="w_want_to_get">Google Play のレビューで 5 つ星評価をつけると、無料の壁紙がもらえます!</string>
+    <string name="w_want_to_get_more">Google Play のレビューで 5 つ星評価をつけると、設定できるイベントを増やせます!</string>
+    <string name="w_give_up">諦める</string>
+    <string name="w_go_google_play">Google Play を開く</string>
+    <string name="w_congatulations">おめでとう</string>
+    <string name="w_go">Go!</string>
+    <string name="w_wallpaper_title">背景の選択</string>
+    <string name="update_version">新バージョンをみつける</string>
+
+</resources>

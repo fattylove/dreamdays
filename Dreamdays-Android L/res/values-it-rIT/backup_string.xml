@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Backup</string>
+    <string name="login_signin">Registrati</string>
+    <string name="login_signup">Iscriviti</string>
+    <string name="login_email_address">Indirizzo e-mail</string>
+    <string name="login_password">Password</string>
+    <string name="login_confirm_password">Conferma password</string>
+    
+    <string name="login_with_facebook">Accedi con Facebook</string>
+    <string name="login_with_twitter">Accedi con Twitter</string>
+    
+    <string name="login_text_1">Oppure accedi con Facebook o Twitter</string>
+    <string name="login_text_2">Registrandoti, accetti le condizioni della nostra</string>
+    <string name="login_text_3">informativa sulla privacy.</string>
+    <string name="login_text_4">Restore from Backup</string>
+    <string name="login_text_5">La vita non può essere ripristinata, se è vuota.</string>
+    <string name="login_text_6">Impossibile connettersi a Internet, sei in Corea del Nord?</string>
+    
+    <string name="login_wrong_u_p">Nome utente o password errati.</string>
+    <string name="login_wrong_e_e">Il campo dell\'indirizzo e-mail è vuoto.</string>
+    <string name="login_wrong_p">Password errata.</string>
+    <string name="login_wrong_e_h_s">Questo indirizzo e-mail è già registrato.</string>
+    <string name="login_wrong_p_e_c_e_a">Si prega di inserire un indirizzo e-mail corretto.</string>
+    <string name="login_wrong_y_p_h">La tua password è qui )</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Link per modificare la Password:</string>
+    <string name="login_wrong_password_send">La password è stata inviata correttamente al tuo indirizzo email, controlla la cartella principale e la spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Password necessaria.</string>
+    <string name="login_wrong_p_d_n_m">La password non corrisponde.</string>
+    <string name="login_wrong_t_e_h_s_u">Questa email è già registrata.</string>
+     
+    <string name="login_forget_title">iForgot</string>
+    <string name="login_forget_content">Possiamo inviare la password al tuo indirizzo email )</string>
+    <string name="login_forget_ok">Certamente</string>
+    <string name="login_forget_cancel">No, grazie</string>
+    <string name="backup_restore">Ripristina</string>
+
+</resources>

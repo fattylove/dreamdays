@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/t"
+        layout="@layout/al_dreamdays_title_restore_2_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_below="@+id/t"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.Holo.Light.ProgressBar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/restoreListView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/replaceLineTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:background="#90a4ae" />
+
+    <RelativeLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/replaceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/replace"
+                android:textColor="#ff1744"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/replace2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back_report"
+                android:textColor="#90a4ae"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

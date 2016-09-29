@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Backup</string>
+    <string name="login_signin">assinar em</string>
+    <string name="login_signup">cadastre-se</string>
+    <string name="login_email_address">Endereço de E-mail</string>
+    <string name="login_password">Senha</string>
+    <string name="login_confirm_password">Confirme sua senha</string>
+    
+    <string name="login_with_facebook">Login com Facebook</string>
+    <string name="login_with_twitter">Login com Twitter</string>
+    
+    <string name="login_text_1">Ou entrar com Facebook ou Twitter</string>
+    <string name="login_text_2">Ao cadastrar-se, você concorda com nossa</string>
+    <string name="login_text_3">política de privacidade</string>
+    <string name="login_text_4">Restaurar do Backup</string>
+    <string name="login_text_5">Life não pode restaurar, se ela estiver vazia.</string>
+    <string name="login_text_6">Não é possível conectar à Internet, você está na DPRK?</string>
+    
+    <string name="login_wrong_u_p">Nome de usuário ou senha incorreta.</string>
+    <string name="login_wrong_e_e">E-mail está vazio.</string>
+    <string name="login_wrong_p">Senha errada.</string>
+    <string name="login_wrong_e_h_s">Este e-mail já foi cadastrado.</string>
+    <string name="login_wrong_p_e_c_e_a">Por favor insira um endereço de e-mail correto.</string>
+    <string name="login_wrong_y_p_h">Sua senha está aqui )</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Alterar senha link:</string>
+    <string name="login_wrong_password_send">A senha foi enviada, verifique seu Primary e Spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Você precisa de uma senha de segurança.</string>
+    <string name="login_wrong_p_d_n_m">A senha não corresponde.</string>
+    <string name="login_wrong_t_e_h_s_u">Este e-mail já assinou.</string>
+     
+    <string name="login_forget_title">iForgot</string>
+    <string name="login_forget_content">Podemos enviar a sua senha para seu e-mail )</string>
+    <string name="login_forget_ok">Claro</string>
+    <string name="login_forget_cancel">Não, thx</string>
+    <string name="backup_restore">restaurar</string>
+
+</resources>

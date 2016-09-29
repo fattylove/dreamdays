@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/cameraRollLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/cameraRollImageView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/cameraRollextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/cameraRollImageView"
+            android:text="@string/cameraroll"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/al_dreamdays_full_line" />
+
+</LinearLayout>

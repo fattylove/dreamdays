@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AppUnlockLinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/app_passcode_keyboard_title" />
+
+    <RelativeLayout
+        android:id="@+id/codeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/title"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/pinReportTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:textColor="#ea3232"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/pin_code_row"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/pincode_1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/al_pin_dot_default"
+                android:gravity="center"
+                android:inputType="none"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="#607d8b" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/pincode_2"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/al_pin_dot_default"
+                android:gravity="center"
+                android:inputType="none"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="#607d8b" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/pincode_3"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/al_pin_dot_default"
+                android:gravity="center"
+                android:inputType="none"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="#607d8b" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/pincode_4"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/al_pin_dot_default"
+                android:gravity="center"
+                android:inputType="none"
+                android:maxLength="1"
+                android:singleLine="true"
+                android:textColor="#607d8b" >
+            </EditText>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/codeLayout" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/al_pin_1" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/al_pin_2" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/al_pin_3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/al_pin_4" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/al_pin_5" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/al_pin_6" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/al_pin_7" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/al_pin_8" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/al_pin_9" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/button_none"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@android:color/transparent" />
+
+                <Button
+                    android:id="@+id/button0"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/al_pin_0" />
+
+                <Button
+                    android:id="@+id/button_erase"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/al_pin_backspace" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

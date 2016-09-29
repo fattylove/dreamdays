@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Резервное</string>
+    <string name="login_signin">Войти</string>
+    <string name="login_signup">Регистрация</string>
+    <string name="login_email_address">E-mail</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_confirm_password">Подтвердите пароль</string>
+    
+    <string name="login_with_facebook">Войти через Facebook</string>
+    <string name="login_with_twitter">Войти через Twitter</string>
+    
+    <string name="login_text_1">Или войдите через Facebook или Twitter</string>
+    <string name="login_text_2">Нажав ОК, вы соглашаетесь с нашим</string>
+    <string name="login_text_3">положением о конфиденциальности</string>
+    <string name="login_text_4">восстановить</string>
+    <string name="login_text_5">Жизнь нельзя восстановить, если она пуста.</string>
+    <string name="login_text_6">Не удается подключиться Интернету, вы в КНДР?</string>
+    
+    <string name="login_wrong_u_p">Неверное имя пользователя или пароль</string>
+    <string name="login_wrong_e_e">Необходимо указать адрес электронной почты</string>
+    <string name="login_wrong_p">Неправильный пароль</string>
+    <string name="login_wrong_e_h_s">Этот адрес электронной почты уже зарегистрирован</string>
+    <string name="login_wrong_p_e_c_e_a">Пожалуйста, введите правильный E-mail.</string>
+    <string name="login_wrong_y_p_h">Ваш пароль здесь :)</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Ссылка на смену пароля:</string>
+    <string name="login_wrong_password_send">Пароль отправлен, пожалуйста, проверьте почту &amp; spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Вам нужен пароль безопасности.</string>
+    <string name="login_wrong_p_d_n_m">Пароль не совпадает.</string>
+    <string name="login_wrong_t_e_h_s_u">Этот адрес уже зарегистрирован.</string>
+     
+    <string name="login_forget_title">Я забыл...</string>
+    <string name="login_forget_content">Мы можем отправить ваш пароль на ваш E-mail :)</string>
+    <string name="login_forget_ok">Конечно</string>
+    <string name="login_forget_cancel">Нет, спасибо</string>
+    <string name="backup_restore">Восстановить</string>
+
+</resources>

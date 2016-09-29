@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 日本 -->
+
+    <string name="app_name">Dreamdays</string>
+
+    <!-- AddAcitivty -->
+    <string name="addActivity_edit_event">事件エディタ </string>
+
+    <!-- MenuFragment -->
+    <string name="MenuFragment_app_detail">夢の日はコシュデザインの製品のコピーです。</string>
+    <string name="MenuFragment_share_dreamdays">夢の日を分かち合う</string>
+    <string name="MenuFragment_rate_and_review">採点と評価</string>
+    <string name="MenuFragment_send_faceback">連絡先</string>
+    <string name="MenuFragment_on">ON</string>
+    <string name="MenuFragment_off">OFF</string>
+    <string name="MenuFragment_passcode">パスワード</string>
+    <string name="MenuFragment_upgrade">完全版にアップデートする</string>
+    <string name="MenuFragment_sort">時間で並べ替え</string>
+
+    <!-- AddActivity -->
+    <string name="AddActivity_delete">事件を消す</string>
+    <string name="AddActivity_add_voice_memo">録音追加</string>
+    <string name="AddActivity_cu_background">カスタム背景</string>
+    <string name="AddActivity_set_as_cover">トップ</string>
+    <string name="AddActivity_on">ON</string>
+    <string name="AddActivity_off">OFF</string>
+    <string name="AddActivity_notify">通知</string>
+    <string name="AddActivity_date">日付</string>
+    <string name="AddActivity_anniversary">記念日</string>
+    <string name="AddActivity_category">分類</string>
+    <string name="AddActivity_event_title">事件名称</string>
+    <string name="AddActivity_done">完成</string>
+    <string name="AddActivity_untitled">事件エディタ</string>
+
+    <!-- AddActivity title -->
+    <string name="edit_event">事件エディタ</string>
+    <string name="new_event">新しい事件</string>
+
+    <!-- CategoryActivity -->
+    <string name="CategoryActivity_category">分類</string>
+    <string name="CategoryActivity_create_new_category">新築の分類</string>
+
+    <!--  -->
+    <string name="app_record_notfound">記録不明</string>
+    <string name="app_record_tooshort">本記録は短すぎ</string>
+    <string name="app_record_sdcarderror">SDカード不明、記録ミス!</string>
+
+    <!-- ratereview -->
+
+    <string name="app_ratereview_ok">グーグルプレーへ</string>
+    <string name="app_ratereview_title">グーグルプレーがすきですか?</string>
+    <string name="app_ratereview_content">好きであれば、グーグルプレーへ評価と採点してください:)</string>
+
+    <!-- update Version -->
+    <string name="app_update_title">Upgrade</string>
+    <string name="app_update_content">Find new version</string>
+    <string name="app_update_googlePlay">Go GooglePlay</string>
+
+    <!--  -->
+    <string name="app_day_left">一日が残る</string>
+    <string name="app_days_left">数日が残る</string>
+    <string name="app_days_since">数日以来</string>
+    <string name="app_day_since">一日以来</string>
+
+    <!-- buttons -->
+    <string name="app_choice_email_title">Eメール客様を選択する</string>
+    <string name="app_feedback_title">夢の日のアンドロイド版に対するフィードバック.</string>
+    <string name="no_found_markets">市場不明</string>
+    <string name="alarm_title">今日は </string>
+    <string name="event_delete_title">事件を消す</string>
+    <string name="event_delete_content">この事件を削除するのが本当ですか?</string>
+
+    <!-- buttons -->
+    <string name="ok">OK</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="delete">削除</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="cancel">キャンセル</string>
+    <string name="edit">編集</string>
+    <string name="great">すごい</string>
+    <string name="deleted">キャンセル</string>
+    <string name="done">完成</string>
+    <string name="upgrade">アップ</string>
+
+    <!-- wallpaper -->
+    <string name="wallpaper_takephoto">写真を撮る</string>
+    <string name="wallpaper_cameraroll">アルバムの中から選択</string>
+    <string name="wallpaper_cancel">キャンセル</string>
+    <string name="wallpaper_title">背景</string>
+
+    <!-- passcode -->
+    <string name="passcode_manage">Unlock Passcode</string>
+    <string name="passcode_enter_passcode">パスワード入力</string>
+    <string name="passcode_enter_old_passcode">古いパスワードを入力する</string>
+    <string name="passcode_re_enter_passcode">パスワード確認</string>
+    <string name="passcode_change_passcode">パスワードを変更する</string>
+    <string name="passcode_set">新しいパスワード</string>
+    <string name="passcode_wrong_passcode">パスワードが違う。もう一度入力してください。</string>
+    <string name="passcode_preference_title">パスワードロック</string>
+    <string name="passcode_turn_off">ポスポートロックをオフする</string>
+    <string name="passcode_turn_on">パスワードロックをオンする</string>
+
+    <!-- Recording voice -->
+    <string name="dialog_loading">ダウンロード中</string>
+    <string name="recording">記録中</string>
+    <string name="hold_to_record">記録に保存する</string>
+    <string name="microphone">マイク</string>
+    <string name="edit_voice_memo">音声メモを編集する</string>
+    <string name="add_voice_memo">録音追加</string>
+    <string name="playing_record">記録を放送する</string>
+
+    <!-- app_2 -->
+    <string name="google_buy_content_passcode">完全版へアップデートしてパスワードを活性化したいですか?</string>
+    <string name="google_buy_content_add_event">完成版へアップしてもっと多い事件を享有しますか?</string>
+    <string name="is_open_content">あなたは有料ユーザーのあらゆる権限を獲得しました。ご使用をありがとうございます !</string>
+
+    <!-- color -->
+    <drawable name="red_drawable">#CCAA1883</drawable>
+    <drawable name="green_drawable">#CC123Bff</drawable>
+
+    <!-- Default data -->
+    <string name="d_All">全部</string>
+    <string name="d_Anniversary">記念日</string>
+    <string name="d_Birthday">誕生日</string>
+    <string name="d_Holiday">休日</string>
+    <string name="d_School">学校</string>
+    <string name="d_Life">生活</string>
+    <string name="d_go_fishing">釣りへ去钓鱼</string>
+    <string name="d_his_birthday">彼の誕生日</string>
+    <string name="d_halloween">ハロウィン</string>
+    <string name="d_winter_break">冬休み</string>
+    <string name="d_first_sight">初めて出会う</string>
+    <string name="d_January">1月</string>
+    <string name="d_February">2月</string>
+    <string name="d_March">3月</string>
+    <string name="d_April">4月</string>
+    <string name="d_May">5月</string>
+    <string name="d_June">6月</string>
+    <string name="d_July">7月</string>
+    <string name="d_August">8月</string>
+    <string name="d_September">9月</string>
+    <string name="d_October">10月</string>
+    <string name="d_November">11月</string>
+    <string name="d_December">12月</string>
+
+    <!-- DetailActivity -->
+    <string name="d_years">年</string>
+    <string name="d_months">月間</string>
+    <string name="d_days">日</string>
+    <string name="d_year">年</string>
+    <string name="d_month">月</string>
+    <string name="d_day">デイ</string>
+
+</resources>

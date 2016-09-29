@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- new -->
+    <string name="repeat">Répéter</string>
+    <string name="none">Aucun</string>
+    <string name="all_events">Tous les événements</string>
+    <string name="dreamdays_background">Arrière-plans Dreamdays</string>
+    <string name="cameraroll">Trier de l\'album</string>
+    <string name="customize">Customize</string>
+    <string name="settings">Paramètre</string>
+    <string name="pin_lock">Mot de passe</string>
+    <string name="weekly">Hebdomadairement</string>
+    <string name="bi_weekly">Bi-hebdomadairement</string>
+    <string name="monthly">Mensuellement</string>
+    <string name="quarterly">Trimestriellement</string>
+    <string name="semi_annually">Semestriellement</string>
+    <string name="annually">Annuellement</string>
+    <string name="replace">restaurer</string>
+    <string name="al_lock_enteryourpin">Entrer le mot de passe</string>
+    <string name="al_lock_enteryourpasscode">Entrer le mot de passe</string>
+    <string name="al_lock_confirmnewpasscode">Confirmer le mot de passe</string>
+    <string name="al_lock_enternewpasscode">Nouveau mot de passe</string>
+    <string name="al_createevent">CRÉER événements</string>
+    <string name="d_tour">Voyages</string>
+    <string name="settings_restore_data">restaurer Data</string>
+    <string name="al_delete_event_content">Voulez-vous supprimer cet événement?</string>
+    <string name="al_delete_btn">Supprimer</string>
+    <string name="al_delete_memo_title">Supprimer Memo</string>
+    <string name="al_nocoverevents">Pas de événements en haut</string>
+
+    <!--  -->
+    <string name="al_emptyspace">Empty space</string>
+    <string name="al_youcurrentlydonothaveanyevents">You currently do not have any events</string>
+    <string name="al_yccaneosaeeac">You can create a new event or set \n an existing event as cover.</string>
+    <string name="al_delete_memo_content">Do you want to delete this memo?</string>
+    <string name="al_delete_category_title">Delete Category</string>
+    <string name="al_delete_category_content">Do you want to delete this category?</string>
+    <string name="al_restored_on">Restored on </string>
+    <string name="remove_voice_memo">Remove Voice Memo</string>
+    <string name="back_report">Current events will be replaced by this backup</string>
+    <string name="sync_data">Sync data</string>
+    
+    <string name="AddActivity_untitled_title">Titre</string>
+    <string name="AddActivity_untitled_event_data">Event Date</string>
+    <string name="AddActivity_untitled_notification">Notification</string>
+</resources>

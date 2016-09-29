@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/clickDetailCenterContentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" >
+
+  
+
+        <RelativeLayout
+            android:id="@+id/centerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topLayout"
+            android:layout_marginTop="-15dp" >
+
+            <TextView
+                android:id="@+id/clickCenterLine1"
+                android:layout_width="110dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/clickCenterImageView"
+                android:background="#ffffff" />
+
+            <ImageView
+                android:id="@+id/clickCenterImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/clickCenterLine2"
+                android:layout_width="110dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/clickCenterImageView"
+                android:background="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerLayout" >
+
+            <TextView
+                android:id="@+id/clickTopNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:text="Happy new Year!"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/clickPlayAudioImageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/clickDetailCenterContentLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#123322" />
+
+</RelativeLayout>

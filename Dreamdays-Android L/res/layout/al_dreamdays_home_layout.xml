@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <include
+        android:id="@+id/home_title"
+        layout="@layout/al_dreamdays_title_home_layout" />
+
+    <al.com.dreamdays.view.UILinearLayout
+        android:id="@+id/uiLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/googleAdsLayout"
+        android:layout_below="@+id/home_title"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/topLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/topNotifyLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent" >
+                </android.support.v4.view.ViewPager>
+
+                <LinearLayout
+                    android:id="@+id/viewGroup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="270dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/allEventListView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </al.com.dreamdays.view.UILinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noEventsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include layout="@layout/al_dreamdays_home_nodata_layout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/googleAdsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

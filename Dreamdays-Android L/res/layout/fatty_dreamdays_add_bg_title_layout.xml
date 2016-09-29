@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/notifyBarTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:background="#607D8B" />
+
+    <RelativeLayout
+        android:id="@+id/addmatter_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:background="#607D8B" >
+
+        <Button
+            android:id="@+id/addbg_return_btn"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/al_close" >
+        </Button>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/addbg_return_btn"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/customize"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addbg_ok_btn"
+            android:layout_width="60dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/transparent"
+            android:text="@string/AddActivity_done"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/doneProgressBar"
+            style="@android:style/Widget.Holo.Light.ProgressBar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

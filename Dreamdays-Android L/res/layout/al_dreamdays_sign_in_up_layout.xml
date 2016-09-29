@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <include
+        android:id="@+id/t"
+        layout="@layout/al_dreamdays_title_sign_in_up_layout" />
+
+    <RelativeLayout
+        android:id="@+id/tab"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/t"
+        android:background="#607d8b" >
+
+        <RelativeLayout
+            android:id="@+id/signInLayout"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50dp" >
+
+            <TextView
+                android:id="@+id/signInTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/login_signin"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/signInLine"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/signInTextView"
+                android:background="#73fefe"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/signUpLayout"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/signInLayout" >
+
+            <TextView
+                android:id="@+id/signUpTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/login_signup"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/signUpLine"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/signUpTextView"
+                android:background="#73fefe"
+                android:gravity="center" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <al.com.dreamdays.view.WrapViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab"
+        android:background="@android:color/transparent" >
+    </al.com.dreamdays.view.WrapViewPager>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewPager"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <include layout="@layout/al_dreamdays_sign_twitter_facebook_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

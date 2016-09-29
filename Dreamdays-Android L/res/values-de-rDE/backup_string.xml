@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Sicherungskopie</string>
+    <string name="login_signin">anmelden</string>
+    <string name="login_signup">registrieren</string>
+    <string name="login_email_address">E-Mail-Adresse</string>
+    <string name="login_password">Passwort</string>
+    <string name="login_confirm_password">Passwort erneut eingeben</string>
+    <string name="login_with_facebook">Anmeldung mit Facebook</string>
+    <string name="login_with_twitter">Anmeldung mit Twitter</string>
+    <string name="login_text_1">Oder melden Sie sich mit Facebook oder Twitter an</string>
+    <string name="login_text_2">Durch deine Anmeldung erklärst du dich einverstanden mit unseren</string>
+    <string name="login_text_3">Datenschutzbestimmungen</string>
+    <string name="login_text_4">Wiederherstellen</string>
+    <string name="login_text_5">Das Leben kann nicht wiederhergestellt werden, wenn es leer ist.</string>
+    <string name="login_text_6">Es kann keine Verbindung mit dem Internet hergestellt werden, sind Sie in der DVRK?</string>
+    <string name="login_wrong_u_p">Falscher Benutzername oder Passwort.</string>
+    <string name="login_wrong_e_e">Die E-Mail ist leer.</string>
+    <string name="login_wrong_p">Falsches Passwort.</string>
+    <string name="login_wrong_e_h_s">Anmeldung über diese E-Mail ist bereits erfolgt.</string>
+    <string name="login_wrong_p_e_c_e_a">Bitte geben Sie eine korrekte E-Mail-Adresse ein.</string>
+    <string name="login_wrong_y_p_h">Ihr Passwort ist hier)</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Change password link:</string>
+    <string name="login_wrong_password_send">Passwort wurde gesendet, überprüfen Sie bitte Ihre E-Mails &amp; Spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Sie benötigen ein Sicherheits-Passwort.</string>
+    <string name="login_wrong_p_d_n_m">Passwort stimmt nicht überein.</string>
+    <string name="login_wrong_t_e_h_s_u">Diese E-Mail wurde bereits registriert.</string>
+    <string name="login_forget_title">iForgot</string>
+    <string name="login_forget_content">Wir können Ihr Kennwort per E-Mail senden)</string>
+    <string name="login_forget_ok">sicher</string>
+    <string name="login_forget_cancel">Nein, danke</string>
+    <string name="backup_restore">Restore</string>
+
+</resources>

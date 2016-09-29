@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Backup</string>
+    <string name="login_signin">Iniciar</string>
+    <string name="login_signup">Registrarse</string>
+    <string name="login_email_address">Correo Electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_confirm_password">Confirmar Contraseña.</string>
+    
+    <string name="login_with_facebook">Iniciar sesión con Facebook</string>
+    <string name="login_with_twitter">Iniciar sesión con Twitter</string>
+    
+    <string name="login_text_1">O regístrese usando Facebook o Twitter</string>
+    <string name="login_text_2">Al registrarte, aceptas nuestra</string>
+    <string name="login_text_3">política de privacidad</string>
+    <string name="login_text_4">Restaurar desde Backup</string>
+    <string name="login_text_5">No puede restaurar si está vacía.</string>
+    <string name="login_text_6">No puede conectarse a Internet</string>
+    
+    <string name="login_wrong_u_p">Error de nombre de usuario o contraseña.</string>
+    <string name="login_wrong_e_e">El correo electrónico está vacío.</string>
+    <string name="login_wrong_p">Contraseña incorrecta.</string>
+    <string name="login_wrong_e_h_s">Este correo electrónico ya se ha registrado.</string>
+    <string name="login_wrong_p_e_c_e_a">Introduzca un correo electrónico válido por favor.</string>
+    <string name="login_wrong_y_p_h">Su contraseña está aquí.</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Link para cambiar contraseña:</string>
+    <string name="login_wrong_password_send">Su contraseña se ha enviado, revise su correo por favor &amp; spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Usted necesita una contraseña segura.</string>
+    <string name="login_wrong_p_d_n_m">Las contraseñas no coinciden.</string>
+    <string name="login_wrong_t_e_h_s_u">Este correo electrónico ya está en uso.</string>
+     
+    <string name="login_forget_title">iForgot</string>
+    <string name="login_forget_content">Podemos enviar su contraseña a su correo electrónico.</string>
+    <string name="login_forget_ok">Aceptar</string>
+    <string name="login_forget_cancel">No, gracias</string>
+    <string name="backup_restore">Restaurar</string>
+
+</resources>

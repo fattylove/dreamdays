@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Backup</string>
+    <string name="login_signin">Inloggen</string>
+    <string name="login_signup">Aanmelden</string>
+    <string name="login_email_address">E-mail Address</string>
+    <string name="login_password">E-mail Adres</string>
+    <string name="login_confirm_password">Bevestig wachtwoord</string>
+    
+    <string name="login_with_facebook">Aanmelden met Facebook</string>
+    <string name="login_with_twitter">Aanmelden met Twitter</string>
+    
+    <string name="login_text_1">Of meld je aan met Facebook of Twitter</string>
+    <string name="login_text_2">Door je aan te melden, ga je akkoord met ons</string>
+    <string name="login_text_3">privacybeleid</string>
+    <string name="login_text_4">Herstellen</string>
+    <string name="login_text_5">Het leven kan niet herstellen, als deze leeg is.</string>
+    <string name="login_text_6">Geen aansluiting met internet, ben je in Noord-Korea?</string>
+    
+    <string name="login_wrong_u_p">Verkeerde gebruikersnaam of wachtwoord.</string>
+    <string name="login_wrong_e_e">E-mail is leeg.</string>
+    <string name="login_wrong_p">Verkeerd wachtwoord.</string>
+    <string name="login_wrong_e_h_s">Deze e-mail is al aangemeld.</string>
+    <string name="login_wrong_p_e_c_e_a">Vul een correct e-mailadres in.</string>
+    <string name="login_wrong_y_p_h">Je wachtwoord is hier )</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Wachtwoord wijzigen link:</string>
+    <string name="login_wrong_password_send">Wachtwoord is verzonden, controleer dan uw Primary &amp; spam.</string>
+    <string name="login_wrong_y_n_a_s_p">Je hebt een veiligheids wachtwoord nodig.</string>
+    <string name="login_wrong_p_d_n_m">Wachtwoord komt niet overeen.</string>
+    <string name="login_wrong_t_e_h_s_u">Deze e-mail heeft zich aangemeld.</string>
+     
+    <string name="login_forget_title">Ik vergat</string>
+    <string name="login_forget_content">Wij kunnen uw wachtwoord verzonden naar uw e-mail  )</string>
+    <string name="login_forget_ok">Jazeker</string>
+    <string name="login_forget_cancel">Nee, dank</string>
+     <string name="backup_restore">herstellen</string>
+
+</resources>

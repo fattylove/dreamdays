@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Backup</string>
+    <string name="login_signin">SIGN IN</string>
+    <string name="login_signup">SIGN UP</string>
+    <string name="login_email_address">E-mail Address</string>
+    <string name="login_password">Password</string>
+    <string name="login_confirm_password">Confirm Password</string>
+    
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_twitter">Login with Twitter</string>
+    <string name="backup_restore">Restore</string>
+    
+    <string name="login_text_1">Or sign in with Facebook or Twitter</string>
+    <string name="login_text_2">By signing up, you agree to our</string>
+    <string name="login_text_3">private prolicy</string>
+    <string name="login_text_4">Restore from Backup</string>
+    <string name="login_text_5">Life can not restore, if it is empty.</string>
+    <string name="login_text_6">Can not connect to the internet, are you in DPRK?</string>
+    
+    <string name="login_wrong_u_p">Wrong username or password.</string>
+    <string name="login_wrong_e_e">E-mail is empty.</string>
+    <string name="login_wrong_p">Wrong password.</string>
+    <string name="login_wrong_e_h_s">This email has already signed up.</string>
+    <string name="login_wrong_p_e_c_e_a">Please enter a correct email address.</string>
+    <string name="login_wrong_y_p_h">Your password is here )</string>
+    <string name="login_wrong_c_p">Dreamdays changes password.</string>
+    <string name="login_wrong_c_p_l">Change password link:</string>
+    <string name="login_wrong_password_send">Password has been sent, please check your mails &amp; spam.</string>
+    <string name="login_wrong_y_n_a_s_p">You need a safety password.</string>
+    <string name="login_wrong_p_d_n_m">Password does not match.</string>
+    <string name="login_wrong_t_e_h_s_u">This email has signed up</string>
+     
+    <string name="login_forget_title">iForgot</string>
+    <string name="login_forget_content">We can sent your password to your email )</string>
+    <string name="login_forget_ok">Sure</string>
+    <string name="login_forget_cancel">No, thx</string>
+
+</resources>

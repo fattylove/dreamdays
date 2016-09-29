@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/t"
+        layout="@layout/al_dreamdays_title_setting_layout" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/settingSortLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingSortTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/MenuFragment_sort"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/settingSortCheckboxLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/settingSortCheckbox"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/al_checkbox_selector"
+                        android:button="@null" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingSyncDataLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingSyncDataTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/sync_data"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/settingSyncDataCheckboxLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/settingSyncDataCheckbox"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/al_checkbox_selector"
+                        android:button="@null" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingPinLockLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingPinLockTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/pin_lock"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/settingPinLockCheckboxLayout"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_vertical|right"
+                    android:orientation="vertical" >
+
+                    <CheckBox
+                        android:id="@+id/settingPinLockCheckbox"
+                        android:layout_width="40dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/al_checkbox_selector"
+                        android:button="@null" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/al_dreamdays_full_line" />
+
+            <RelativeLayout
+                android:id="@+id/settingCalendarLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingCalendarTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/MenuFragment_share_dreamdays"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingRestoreLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingRestoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/settings_restore_data"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingFullVersionLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingFullVersionTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/MenuFragment_upgrade"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingRateLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingRateTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/MenuFragment_rate_and_review"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingFeedbackLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="55dp" >
+
+                <TextView
+                    android:id="@+id/settingFeedbackTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/MenuFragment_send_faceback"
+                    android:textColor="#263238"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp" >
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/al_settings_footer" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

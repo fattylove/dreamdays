@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/notifyBarTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:background="#00BCD4" />
+
+    <RelativeLayout
+        android:id="@+id/homeTitleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#00BCD4" >
+
+        <View
+            android:id="@+id/popoPointView"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:background="@android:color/transparent" />
+
+        <View
+            android:id="@+id/menuPopoPointView"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="13dp"
+            android:background="@android:color/transparent" />
+
+        <RelativeLayout
+            android:id="@+id/eventBarLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/eventBarTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:text="@string/all_events"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/eventBarTextView"
+                android:background="@drawable/al_dropdown_arrow" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/plusImageButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@+id/menuImageButton"
+            android:background="@drawable/al_add" />
+
+        <ImageButton
+            android:id="@+id/menuImageButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/al_more" />
+    </RelativeLayout>
+
+</LinearLayout>

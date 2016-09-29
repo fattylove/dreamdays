@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/fatty_camera_roll_title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/dreamdayLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/dreamdayImageView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/dreamdayTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/dreamdayImageView"
+            android:text="@string/dreamdays_background"
+            android:textColor="#263238"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <include layout="@layout/al_dreamdays_full_line" />
+
+    <ListView
+        android:id="@+id/dreamdaysListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+</LinearLayout>

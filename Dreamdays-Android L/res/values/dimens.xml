@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- height of a normal list item in edit playlist mode -->
+    <dimen name="normal_height">66dip</dimen>
+    <!-- height of an expanded list item in edit playlist mode -->
+    <dimen name="expanded_height">66dip</dimen>
+    <dimen name="slidingmenu_offset">60dip</dimen>
+    <dimen name="shadow_width">20dip</dimen>
+    <dimen name="focus_title_image_margin">20dip</dimen>
+    <dimen name="focus_title_image_left_or_right_margin">15dip</dimen>
+    <dimen name="focus_title_images_margin">10dip</dimen>
+    <dimen name="medium_font_padding">12dp</dimen>
+    <dimen name="medium_font_size">60dp</dimen>
+    <dimen name="medium_font_size_hms">54dp</dimen>
+    <dimen name="medium_font_size_header">24sp</dimen>
+    <dimen name="medium_date_font_size">48dp</dimen>
+    <dimen name="medium_expiration_font_size">40dp</dimen>
+    <dimen name="label_font_size">14sp</dimen>
+    <dimen name="body_font_padding">4dp</dimen>
+    <dimen name="dialpad_font_size">48sp</dimen>
+    <dimen name="timer_padding_left">16dip</dimen>
+    <dimen name="dialpad_font_size_ampm">24sp</dimen>
+    <dimen name="dialog_button_font_size">14sp</dimen>
+    <dimen name="tablet_dialpad_font_size">60sp</dimen>
+    <dimen name="tablet_dialpad_font_size_ampm">30sp</dimen>
+    <dimen name="date_viewpager_height">275dip</dimen>
+
+    <!-- From AOSP -->
+    <item name="circle_radius_multiplier" format="float" type="string">0.82</item>
+    <item name="circle_radius_multiplier_24HourMode" format="float" type="string">0.85</item>
+    <item name="selection_radius_multiplier" format="float" type="string">0.16</item>
+    <item name="ampm_circle_radius_multiplier" format="float" type="string">0.19</item>
+    <item name="numbers_radius_multiplier_normal" format="float" type="string">0.81</item>
+    <item name="numbers_radius_multiplier_inner" format="float" type="string">0.60</item>
+    <item name="numbers_radius_multiplier_outer" format="float" type="string">0.83</item>
+    <item name="text_size_multiplier_normal" format="float" type="string">0.17</item>
+    <item name="text_size_multiplier_inner" format="float" type="string">0.14</item>
+    <item name="text_size_multiplier_outer" format="float" type="string">0.11</item>
+
+    <dimen name="time_label_size">60sp</dimen>
+    <dimen name="extra_time_label_margin">-30dp</dimen>
+    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="done_label_size">14sp</dimen>
+    <dimen name="ampm_left_padding">6dip</dimen>
+    <dimen name="separator_padding">4dip</dimen>
+    <dimen name="header_height">96dip</dimen>
+    <dimen name="footer_height">48dip</dimen>
+    <dimen name="minimum_margin_sides">48dip</dimen>
+    <dimen name="minimum_margin_top_bottom">24dip</dimen>
+    <dimen name="picker_dimen">270dip</dimen>
+    <dimen name="date_picker_component_width">270dp</dimen>
+    <dimen name="date_picker_header_height">30dp</dimen>
+    <dimen name="selected_calendar_layout_height">155dp</dimen>
+    <dimen name="date_picker_view_animator_height">270dp</dimen>
+    <dimen name="done_button_height">42dp</dimen>
+    <dimen name="month_list_item_header_height">50dp</dimen>
+    <dimen name="month_day_label_text_size">10sp</dimen>
+    <dimen name="day_number_select_circle_radius">16dp</dimen>
+    <dimen name="month_select_circle_radius">45dp</dimen>
+    <dimen name="selected_date_year_size">30dp</dimen>
+    <dimen name="selected_date_day_size">75dp</dimen>
+    <dimen name="selected_date_month_size">30dp</dimen>
+    <dimen name="date_picker_header_text_size">14dp</dimen>
+    <dimen name="month_label_size">16sp</dimen>
+    <dimen name="day_number_size">16sp</dimen>
+    <dimen name="year_label_height">64dp</dimen>
+    <dimen name="year_label_text_size">22dp</dimen>
+
+    <!-- Default -->
+    <dimen name="radius_default">3dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="margin_default">5dp</dimen>
+    <dimen name="line_default">1dp</dimen>
+    <!-- Products -->
+    <dimen name="height_list">62dip</dimen>
+    <dimen name="size_list_image">64dp</dimen>
+    <dimen name="font_size_title">17sp</dimen>
+    <dimen name="font_size_description">15sp</dimen>
+    <dimen name="margin_setting">20dp</dimen>
+    <dimen name="font_size_new_tag">11sp</dimen>
+    <dimen name="padding_new_tag">3dp</dimen>
+
+    <!--  -->
+    <dimen name="margin">1dp</dimen>
+
+    <!-- The width that is used when creating thumbnails of applications. -->
+    <dimen name="thumbnail_width">84dp</dimen>
+    <!-- The height that is used when creating thumbnails of applications. -->
+    <dimen name="thumbnail_height">63dp</dimen>
+    <!--
+         The standard size (both width and height) of an application icon that
+         will be displayed in the app launcher and elsewhere.
+    -->
+    <dimen name="app_icon_size">48dip</dimen>
+    <dimen name="toast_y_offset">64dip</dimen>
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height">25dip</dimen>
+    <!-- Size of the fastscroll hint letter -->
+    <dimen name="fastscroll_overlay_size">104dp</dimen>
+    <!-- Width of the fastscroll thumb -->
+    <dimen name="fastscroll_thumb_width">64dp</dimen>
+    <!-- Height of the fastscroll thumb -->
+    <dimen name="fastscroll_thumb_height">52dp</dimen>
+    <dimen name="dialog_padding">25dp</dimen>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">wallpaper</string>
+    <string name="w_free_now">Бесплатно сейчас!</string>
+    <string name="w_want_to_get">Хотите загрузить обои бесплатно? Напишите отзыв и поставьте нашему приложению 5 звезд на Google Play!</string>
+    <string name="w_want_to_get_more">Хотите загружать больше событий? Поставьте нашему приложению 5 звезд на Google Play!</string>
+    <string name="w_give_up">Отказаться</string>
+    <string name="w_go_google_play">Перейти в Google Play</string>
+    <string name="w_congatulations">Поздравляем</string>
+    <string name="w_go">Вперед!</string>
+    <string name="w_wallpaper_title">Клуб обоев (Новое)</string>
+    <string name="update_version">найдите новую версию</string>
+
+</resources>

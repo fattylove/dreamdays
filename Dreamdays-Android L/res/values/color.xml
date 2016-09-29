@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="half_tra">#00000000</color>
+    <color name="matterlittercolor">#818280</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="gray">#CCC</color>
+    <color name="lite_gray">#88CCCCCC</color>
+    <color name="list_row_selected">#78c8e6</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="default_text_color_holo_dark">#ffffffff</color>
+    <color name="default_text_color_holo_dark_disabled">#ff4c4c4c</color>
+    <color name="default_divider_color_dark">#28ffffff</color>
+    <color name="default_button_background_dark">#00000000</color>
+    <color name="default_button_background_pressed_dark">#46c5c1ff</color>
+    <color name="default_keyboard_indicator_color_dark">#ff33b5e5</color>
+    <color name="default_text_color_holo_light">#ff000000</color>
+    <color name="default_text_color_holo_light_disabled">#ffb2b2b2</color>
+    <color name="default_divider_color_light">#28000000</color>
+    <color name="default_button_background_light">#00000000</color>
+    <color name="default_button_background_pressed_light">#ff00ddff</color>
+    <color name="default_keyboard_indicator_color_light">#ff00ddff</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <drawable name="white">#FFFFFF</drawable>
+
+    <color name="black">#ff000000</color>
+    <color name="pink">#fff70081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="myapp">#FFAE5300</color>
+    <color name="setdate">#FFC2FDE7</color>
+    <color name="touming">#00FFFFFF</color>
+    <color name="vifrification">#00000000</color>
+    <color name="dialog_divider">#ffbfcbd3</color>
+    <color name="dialog_listitem_press">#ffd0dce4</color>
+    <color name="buttonblur_color">#1a8bb2</color>
+
+    <!-- 透明 -->
+    <color name="lite_pink">#e4bcd5</color>
+    <color name="dark_pink">#d53f8a</color>
+    <color name="rizhi_beizhu_bg">#fae5ec</color>
+    <color name="transparent_black">#33000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="al_choice">#eceff1</color>
+    <color name="bgcolor">#E5E5E5</color>
+    <color name="bgcolor_touming">#66000000</color>
+    <color name="gray_color">#333333</color>
+    <color name="blue_color">#0099ff</color>
+    <color name="category_select_color">#1a8bb2</color>
+    <color name="sliding_menu_item_pressed">#ff39393b</color>
+    <color name="sliding_menu_back">#ff2c2c2e</color>
+    <color name="c_ffffffff">#ffffffff</color>
+    <color name="c_ff2c2c2e">#ff2c2c2e</color>
+    <color name="c_ffb1b1b1">#ffb1b1b1</color>
+    <color name="slider_color">#363636</color>
+    <color name="background_app">#dedede</color>
+    <color name="background_list_back">#e3e3e3</color>
+    <color name="background_list_front">#ffffff</color>
+    <color name="text_title">#444444</color>
+    <color name="text_description">#7e7e7e</color>
+    <color name="line">#ffbcbcbc</color>
+    <color name="background_new_tag">#ff0000</color>
+    <color name="text_new_tag">#ffffff</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffffff</color>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="w_wallpaper">wallpaper</string>
+    <string name="w_free_now">Free now!</string>
+    <string name="w_want_to_get">Want to get the wallpapers free? Go the Google Play and give us a 5 stars review!</string>
+    <string name="w_want_to_get_more">Want to get more events? Go the Google Play and give us a 5 stars review!</string>
+    <string name="w_give_up">Give up</string>
+    <string name="w_go_google_play">Go Google Play</string>
+    <string name="w_congatulations">Congratulations</string>
+    <string name="w_go">Go!</string>
+    <string name="w_wallpaper_title">Wallpaper Club(New)</string>
+    <string name="update_version">find new version</string>
+
+</resources>

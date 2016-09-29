@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login_backup">Sauvegarde</string>
+	<string name="login_signin">Se connecter</string>
+	<string name="login_signup">S\'inscire</string>
+	<string name="login_email_address">Adresse mail</string>
+	<string name="login_password">Mot de passe</string>
+	<string name="login_confirm_password">Confirmer mot de passe</string>
+	<string name="login_with_facebook">Connexion avec Facebook</string>
+	<string name="login_with_twitter">Connexion avec Twitter</string>
+	<string name="login_text_1">Ou inscrivez vous via Twitter ou Facebook</string>
+	<string name="login_text_2">En vous inscrivant, vous acceptez notre</string>
+	<string name="login_text_3">politique de confidentialité</string>
+	<string name="login_text_4">Restaurer depuis la sauvegarde</string>
+	<string name="login_text_5">Life ne peux pas restaurer, Si c\'est vide.</string>
+	<string name="login_text_6">Impossible de se connecter à Internet, vous êtes en Corée du Nord?</string>
+	<string name="login_wrong_u_p">Mauvais identifiant ou mot de passe.</string>
+	<string name="login_wrong_e_e">L\'adresse e-mail est vide.</string>
+	<string name="login_wrong_p">Mauvais mot de passe.</string>
+	<string name="login_wrong_e_h_s">Cette adresse e-mail est déjà inscrite.</string>
+	<string name="login_wrong_p_e_c_e_a">S\'il vous plait entrez une adresse mail correcte.</string>
+	<string name="login_wrong_y_p_h">votre mot de passe est ici )</string>
+	<string name="login_wrong_c_p">Dreamdays change le mot de passe.</string>
+	<string name="login_wrong_c_p_l">lien pour changer de mot de passe:</string>
+	<string name="login_wrong_password_send">Mot de passe envoyé, s\'il vous plait vérifiez vos mails et vos spams.</string>
+	<string name="login_wrong_y_n_a_s_p">Vous avez besoin d\'un mot de passe sûr.</string>
+	<string name="login_wrong_p_d_n_m">Mauvais mot de passe.</string>
+	<string name="login_wrong_t_e_h_s_u">Ce mail est déjà inscrit</string>
+	<string name="login_forget_title">J\'ai oublié</string>
+	<string name="login_forget_content">Nous pouvons vous envoyer votre mot de passe par mail )</string>
+	<string name="login_forget_ok">Sûr</string>
+	<string name="login_forget_cancel">Non, merci</string>
+    <string name="backup_restore">Restaurer</string>
+
+</resources>

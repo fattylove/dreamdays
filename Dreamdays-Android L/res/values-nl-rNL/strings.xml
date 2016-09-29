@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 荷兰 -->
+    <string name="app_name">Dreamdays</string>
+
+    <!-- AddAcitivty -->
+    <string name="addActivity_edit_event">Evenement bewerken</string>
+
+    <!-- MenuFragment -->
+    <string name="MenuFragment_app_detail">Dreamdays is een Guxiu Ontwerp productie exemplaar</string>
+    <string name="MenuFragment_share_dreamdays">Deel Dreamdays</string>
+    <string name="MenuFragment_rate_and_review">Rate en Review</string>
+    <string name="MenuFragment_send_faceback">Feedback sturen</string>
+    <string name="MenuFragment_on">Aan</string>
+    <string name="MenuFragment_off">Uit</string>
+    <string name="MenuFragment_passcode">Wachtwoord</string>
+    <string name="MenuFragment_upgrade">Upgraden naar de volledige versie</string>
+    <string name="MenuFragment_sort">Sorteer op tijd</string>
+
+    <!-- AddActivity -->
+    <string name="AddActivity_delete">Evenement verwijderen</string>
+    <string name="AddActivity_add_voice_memo">Voice Memo opnemen</string>
+    <string name="AddActivity_cu_background">achtergrond aanpassen</string>
+    <string name="AddActivity_set_as_cover">Als Omslag instellen</string>
+    <string name="AddActivity_on">Aan</string>
+    <string name="AddActivity_off">Uit</string>
+    <string name="AddActivity_notify">melding</string>
+    <string name="AddActivity_date">Datum</string>
+    <string name="AddActivity_anniversary">jubileum</string>
+    <string name="AddActivity_category">Categorie</string>
+    <string name="AddActivity_event_title">Evenement Titel</string>
+    <string name="AddActivity_done">Voltooid</string>
+    <string name="AddActivity_untitled">Nieuw Evenement</string>
+
+    <!-- AddActivity title -->
+    <string name="edit_event">Evenement bewerken</string>
+    <string name="new_event">Nieuw Evenement</string>
+
+    <!-- CategoryActivity -->
+    <string name="CategoryActivity_category">Categorie</string>
+    <string name="CategoryActivity_create_new_category">Een nieuwe categorie creëren</string>
+
+    <!--  -->
+    <string name="app_record_notfound">Opname bestand niet gevonden</string>
+    <string name="app_record_tooshort">Opname is te kort</string>
+    <string name="app_record_sdcarderror">SD-Kaart Niet Gevonden, Opnemen mislukt!</string>
+
+    <!-- ratereview -->
+    <string name="app_ratereview_ok">Naar GooglePlay</string>
+    <string name="app_ratereview_title">Heeft u genoten van het gebruik van Dreamdays?</string>
+    <string name="app_ratereview_content">Ja? Gelieve naar Google Play te gaan en ons een feedback of beoordeling te geven:)</string>
+
+    <!-- update Version -->
+    <string name="app_update_title">Upgrade</string>
+    <string name="app_update_content">krijg de nieuwe versie</string>
+    <string name="app_update_googlePlay">Ga naar GooglePlay</string>
+
+    <!--  -->
+    <string name="app_day_left">Dag Over</string>
+    <string name="app_days_left">Dagen Over</string>
+    <string name="app_days_since">Dagen Vanaf</string>
+    <string name="app_day_since">Dag Vanaf</string>
+
+    <!-- buttons -->
+    <string name="app_choice_email_title">Kies Email titel</string>
+    <string name="app_feedback_title">Dreamdays Android Feedback.</string>
+    <string name="no_found_markets">Geen markten kunnen vinden!</string>
+    <string name="alarm_title">alarm titel</string>
+    <string name="event_delete_title">Evenement verwijderen</string>
+    <string name="event_delete_content">Wil je dit evenement verwijderen?</string>
+
+    <!-- buttons -->
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="delete">Verwijderen</string>
+    <string name="on">Aan</string>
+    <string name="off">Uit</string>
+    <string name="cancel">Annuleren</string>
+    <string name="edit">Bewerken</string>
+    <string name="great">Geweldig</string>
+    <string name="deleted">verwijderde</string>
+    <string name="done">Voltooid</string>
+    <string name="upgrade">Upgraden</string>
+
+    <!-- wallpaper -->
+    <string name="wallpaper_takephoto">Een foto nemen</string>
+    <string name="wallpaper_cameraroll">Van eigen foto’s kiezen</string>
+    <string name="wallpaper_cancel">Annuleren</string>
+    <string name="wallpaper_title">Achtergrond titel</string>
+
+    <!-- passcode -->
+    <string name="passcode_manage">Unlock Passcode</string>
+    <string name="passcode_enter_passcode">Voer Wachtwoord in</string>
+    <string name="passcode_enter_old_passcode">Voer uw oude wachtwoord in</string>
+    <string name="passcode_re_enter_passcode">Wachtwoord Bevestigen </string>
+    <string name="passcode_change_passcode">Wachtwoord wijzigen</string>
+    <string name="passcode_set">nieuw wachtwoord</string>
+    <string name="passcode_wrong_passcode">Wachtwoord kwam niet overeen, probeer het opnieuw.</string>
+    <string name="passcode_preference_title">wachtwoord geblokkeerd</string>
+    <string name="passcode_turn_off">Zet wachtwoord uit</string>
+    <string name="passcode_turn_on">Zet wachtwoord aan</string>
+
+    <!-- Recording voice -->
+    <string name="dialog_loading">Laden…</string>
+    <string name="recording">Aan het opnemen</string>
+    <string name="hold_to_record">ingedrukt houden om op te nemen</string>
+    <string name="microphone">De Microfoon</string>
+    <string name="edit_voice_memo">Geluid Memo Bewerken</string>
+    <string name="add_voice_memo">Geluid memo Toevoegen</string>
+    <string name="playing_record">Opname afspelen</string>
+
+    <!-- app_2 -->
+    <string name="google_buy_content_passcode">Wilt u upgraden naar de volledige versie om wachtwoorden in te stellen?</string>
+    <string name="google_buy_content_add_event">Wilt u upgraden naar de volledige versie om meer evenementen te genieten?</string>
+    <string name="is_open_content">Je hebt nu alle Betaald-functies, dankzij de App van de Dag!</string>
+
+    <!-- color -->
+    <drawable name="red_drawable">#CCAA1883</drawable>
+    <drawable name="green_drawable">#CC123Bff</drawable>
+
+    <!-- Default data -->
+    <string name="d_All">Alles</string>
+    <string name="d_Anniversary">Jubileum</string>
+    <string name="d_Birthday">Verjaardag</string>
+    <string name="d_Holiday">Vakantie</string>
+    <string name="d_School">School</string>
+    <string name="d_Life">Leven</string>
+    <string name="d_go_fishing">Ga vissen</string>
+    <string name="d_his_birthday">Zijn geboortedag</string>
+    <string name="d_halloween">Halloween</string>
+    <string name="d_winter_break">winterstop</string>
+    <string name="d_first_sight">Op het eerste gezicht</string>
+    <string name="d_January">januari</string>
+    <string name="d_February">februari</string>
+    <string name="d_March">maart</string>
+    <string name="d_April">april</string>
+    <string name="d_May">mei</string>
+    <string name="d_June">juni</string>
+    <string name="d_July">juli</string>
+    <string name="d_August">augustus</string>
+    <string name="d_September">september</string>
+    <string name="d_October">oktober</string>
+    <string name="d_November">november</string>
+    <string name="d_December">december</string>
+
+    <!-- DetailActivity -->
+    <string name="d_years">jaar</string>
+    <string name="d_months">maanden</string>
+    <string name="d_days">dagen</string>
+    <string name="d_year">jaar</string>
+    <string name="d_month">maand</string>
+    <string name="d_day">dag</string>
+
+</resources>

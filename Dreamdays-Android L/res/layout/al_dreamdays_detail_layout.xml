@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/globalLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <al.com.dreamdays.view.AlphaImageView
+        android:id="@+id/detailBgImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#30000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <include
+        android:id="@+id/t"
+        layout="@layout/al_dreamdays_title_detail_layout" />
+
+    <LinearLayout
+        android:id="@+id/googleAdsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

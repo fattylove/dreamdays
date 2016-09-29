@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- new -->
+    <string name="repeat">반복</string>
+    <string name="none">없음</string>
+    <string name="all_events">모든 이벤트</string>
+    <string name="dreamdays_background">Dreamdays 배경</string>
+    <string name="cameraroll">카메라 롤에서</string>
+    <string name="customize">배경</string>
+    <string name="settings">설정</string>
+    <string name="pin_lock">비밀번호</string>
+    <string name="al_lock_enteryourpin">비밀번호 입력</string>
+    <string name="al_lock_enteryourpasscode">비밀번호 입력</string>
+    <string name="al_lock_confirmnewpasscode">비밀번호 확인</string>
+    <string name="al_lock_enternewpasscode">새로운 비밀번호</string>
+    <string name="weekly">매주"</string>
+    <string name="bi_weekly">격주</string>
+    <string name="monthly">매월</string>
+    <string name="quarterly">분기별</string>
+    <string name="semi_annually">반년마다</string>
+    <string name="annually">매년</string>
+    <string name="replace">복원</string>
+    <string name="d_tour">여행</string>
+    <string name="al_nocoverevents">커버 이벤트가 없습니다</string>
+    <string name="al_delete_event_content">이 이벤트를 삭제하시겠습니까?</string>
+    <string name="al_delete_btn">삭제</string>
+    <string name="al_delete_memo_title">삭제</string>
+    <string name="al_delete_category_title">삭제</string>
+    <!--  -->
+    <string name="back_report">Current events will be replaced by this backup</string>
+    <string name="sync_data">Sync data</string>
+    <string name="settings_restore_data">Restore Data</string>
+    <string name="remove_voice_memo">Remove Voice Memo</string>
+    <string name="al_emptyspace">Empty space</string>
+    <string name="al_youcurrentlydonothaveanyevents">You currently do not have any events</string>
+    <string name="al_createevent">CREATE EVENT</string>
+    <string name="al_yccaneosaeeac">You can create a new event or set \n an existing event as cover.</string>
+    <string name="al_delete_memo_content">Do you want to delete this memo?</string>
+    <string name="al_delete_category_content">Do you want to delete this category?</string>
+    <string name="al_restored_on">Restored on </string>
+    
+    <string name="AddActivity_untitled_title">제목</string>
+    <string name="AddActivity_untitled_event_data">날짜</string>
+    <string name="AddActivity_untitled_notification">Notification</string>
+</resources>
